@@ -1,0 +1,93 @@
+            @import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto');
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: serif;
+                line-height: 1.5;
+                font-size: 28px;
+            }
+            
+            .image {
+                width: 21px;
+                height: auto;
+                display: flexbox;
+                align-items: center;
+            }
+            
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+                position: -webkit-sticky;
+                /* Safari */
+                position: sticky;
+                top: 0;
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover {
+                background-color: #111;
+            }
+            
+            .active {
+                background-color: #4CAF50;
+            }
+            
+            header {
+                padding: 3px 0;
+                background-image: url(images/header.png);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            
+            header h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 70%;
+                text-align: center;
+                color: rgb(230, 173, 173);
+                text-shadow: 10%;
+            }
+            /* footer */
+            
+            footer {
+                background: #353535;
+                padding: 32px 0;
+                text-align: center;
+                color: #868686;
+                font-size: 12px;
+            }
+            
+            footer ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            footer li {
+                display: inline-block;
+            }
+            
+            footer li a {
+                padding: 6px;
+                font-size: 14px;
+                text-decoration: none;
+                color: #c3c3c3;
+            }
+            
+            footer li a:hover {
+                color: white;
+            }

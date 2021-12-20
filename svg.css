@@ -1,0 +1,39 @@
+svg {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    left: 33%;
+}
+
+h1 {
+    font-size: 250%;
+    font-weight: bold;
+    fill: none;
+    stroke: #3983ab;
+    stroke-width: 2px;
+}
+
+.schreib {
+    font-family: Pacifico;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: 10;
+}
+
+.path {
+    fill: none;
+    stroke: #3983ab;
+    stroke-width: 3px;
+}
+
+#eins {
+    stroke: #e34c04;
+}
+
+#zwei {
+    stroke: #dfac20;
+}
+
+#drei {
+    stroke: #999;
+}
